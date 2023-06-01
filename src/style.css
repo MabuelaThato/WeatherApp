@@ -1,3 +1,25 @@
-h1 {
-  color: blue;
+body {
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 20px;
+}
+form {
+  padding-top: 10px;
+}
+.row {
+  text-align: center;
+}
+.col-4 {
+  justify-items: center;
+}
+.temp1 {
+  font-size: 50px;
+}
+.top {
+  background-color: rgb(255, 211, 68);
+}
+.form-control {
+  background-color: #fcfcfc;
+}
+.location {
+  font-size: 30px;
 }
