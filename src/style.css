@@ -5,21 +5,29 @@ body {
 form {
   padding-top: 10px;
 }
+
+.units {
+  font-size: 25px;
+}
 .row {
   text-align: center;
 }
 .col-4 {
   justify-items: center;
 }
-.temp1 {
-  font-size: 50px;
+#temp {
+  font-size: 70px;
 }
 .top {
-  background-color: rgb(255, 211, 68);
+  background-color: black;
+  color: white;
 }
 .form-control {
-  background-color: #fcfcfc;
+  background-color: black;
 }
 .location {
   font-size: 30px;
+}
+.footer {
+  text-align: center;
 }

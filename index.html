@@ -28,43 +28,46 @@
   <body>
     <div class="container-fluid">
       <div class="top">
-        <form id="search" class="mb-5" >
+        <form id="search" class="mb-5">
           <div class="row">
             <div class="col-1"></div>
             <div class="col-8">
               <input
-              type="search"
-              placeholder="Type city..."
-              class="form-control"
+                type="search"
+                placeholder="Type city..."
+                class="form-control"
               />
             </div>
-
             <div class="col-2">
               <input type="submit" value="Search" class="btn btn-light w-100" />
             </div>
           </div>
         </form>
         <div class="row">
-          <div class="col-4"> </div>
+          <div class="col-4"></div>
           <div class="col-4" id="current">
-            <div class="temp1">22 <span class="metric">°C</span></div>
-            <div class="icn1">
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAWlBMVEX///8AAABAQECioqLy8vJ4eHicnJwZGRlDQ0NycnLt7e0sLCyUlJTKysrj4+P29vbQ0NCBgYFSUlI4ODgnJyevr69ZWVlqamq/v7/Z2dm2trZJSUmoqKiLi4uHYWkeAAACR0lEQVRoge2aW3uDIAyGi9qqteLZ1s39/785kXri4ZCwJ7vY/C4LeRshQIheLgiFcRxi+qPYbBIVPRHwhAgeCHhwwk/4P4cPtw+bPX9xc2Mq4Km5/TY1f9qbH8bWe8ZYdjc2P8R/M6PvfG420y95bnds0s3U/mIuupPNBlMHzrzpC9vo+DJsHnQA25seQtgb3dHtqAhqtNCViSnKsKqbtm3qKiwLxYaDHXrTx71nXc8O6rvoYBODH1bSt4jmV6bRdb+Uhxh8coupf65ea9Ezfu89jzQgrYZx9bszoYU6KFCr4mljT8+nTi2GndnZ0z7mTecutJBli7b6DWEz5uW7e0x+MDKOudz0dLNUWWPwKHRERm7mJvACesu4LnW64tigKNyEi0eU40jXUSMuhBl1RKhIYQKmd+OO6uFs4MLfC75MSzy8BMNDN0wV/Hpa4eGVwc0kWJS+U9gaD6+l5T1dYUmoDEEmuzR4eCMtD9t0KFOOVfJgbvHwdjbMD7/FtHDSYSGdUNpQ1EUnHg5fRKTLn3TjIt1yaQ8L0mOO9ICmTS1IkyLadI40EaVNoWmTf9JrC92Fq5iPDZqr4jidW8IlikvuXPeRpyLsep6PxtKWls2YPFAhhQXxfMDqz1KvWmydJRGZUIAqVwt7V81xFHNGBqUvbKWrrQw16E3MbFQBzeCQqtKHDa0YfnmxgfTOj73RbbtBEfixV/rL2mn8siRPthL3w+m5VYDivNdDz3K9VrC+k3DpD7/KOeEn/HfgpK/mST8qQH8O8Q3XpxrMR7AJuAAAAABJRU5ErkJggg=="
-                alt="sunny"
-              />
+            <div id="temp">
+              <span class="temp1"> </span>
+              <span class="units"
+                ><a href="" class="metric">°C</a> |
+                <a href="" class="imperial">F</a></span
+              >
             </div>
+            <div class="icn1"><img src="" alt="icon" id="icon1" /></div>
             <div class="location">Pretoria</div>
-            <span class="dscrp1"> Sunny </span
-            ><span class="precipitation1"> 0% </span>
-            <div>
-            <span class="time1"> 14: 00 </span
-            ><span class="date"> Thurs 25 Apr </span>
-            </div>
+            <span class="dscrp1"> </span>
+            <div><span class="time1"> </span><span class="date"> </span></div>
           </div>
-          <div class="col-4"> </div>
+          <div class="col-4"></div>
         </div>
       </div>
+      <div class="footer">
+        <a href="https://github.com/MabuelaThato/WeatherApp" target="_blank">
+          Open-source code</a
+        >
+        Thato Mabuela.
+      </div>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
