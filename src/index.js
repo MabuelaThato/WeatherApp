@@ -1,4 +1,5 @@
 function test(response) {
+  console.log(response.data);
   let dscrp1 = document.querySelector(".dscrp1");
   let icon1 = document.querySelector("#icon1");
   let iconUrl = `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.daily[0].condition.icon}.png`;
