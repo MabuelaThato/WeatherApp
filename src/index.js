@@ -54,7 +54,7 @@ function test(response) {
   date.innerHTML = `${days[getDay1.getDay()]} ${today.getDate()} ${
     months[today.getMonth()]
   }`;
-  dscrp1.innerHTML = `${response.data.daily[0].condition.description}, wind speed: ${response.data.daily[0].wind.speed} km/hr`;
+  dscrp1.innerHTML = `${response.data.daily[0].condition.description} </br> wind speed: ${response.data.daily[0].wind.speed} km/hr`;
   day1.innerHTML = days[getDay2.getDay()];
   day2.innerHTML = days[getDay3.getDay()];
   day3.innerHTML = days[getDay4.getDay()];
